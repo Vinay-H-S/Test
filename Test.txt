@@ -1,0 +1,120 @@
+1.Method Overloading:- Multiple methods having same name but different parameters known as method overloading.
+Ex: class Car{
+	String name;
+	String color;
+	
+	static void repair()
+	{
+		System.out.println("invoking repair in Car");
+	}
+	static void wash()
+	{
+		System.out.println("invoking wash in Car);
+	}	
+	
+}
+
+2.there are 3 types of variables
+	1.local variable:-declared and use with in a specific method or constructor or block of code
+	2.instance variables:-declare with-in the class but outside the method or constructor or block of code
+	3.static variables:-created when program start and destroyed when program stops. *declare using static keyword
+
+
+				
+6.class Helmet{
+	static String name;
+	static float price;
+	Helmet(String name,float price)
+	{
+		this.name=name;
+		this.price=price;
+	}
+	static{
+		name="Steel Bird";
+		price=1499f;
+	}
+	static void topStatic()
+	{
+		System.out.println("Brand name :"+name);
+		System.out.println("Price :"+price);
+	}
+}
+
+7.class Oil{
+	String brand;
+	int Volume;
+	double price;
+	
+	Oil(String brand)
+	{
+		this.brand=brand;
+	}
+	
+	Oil(String brand,int Volume)
+	{
+		this.brand=brand;
+		this.Volume=Volume;
+	}
+	Oil(String brand,int Volume,double price)
+	{
+		this.brand=brand;
+		this.Volume=Volume;
+		this.price=price;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
